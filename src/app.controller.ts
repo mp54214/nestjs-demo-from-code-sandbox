@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('data222')
+  @Get('data2')
   getData(): any {
     return [{ a: 200, b: 500, c: 'Matti' }];
   }
